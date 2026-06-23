@@ -1,0 +1,29 @@
+# 실제 설정/비밀키 (예시 파일만 커밋)
+application.yml
+application-*.yml
+!application-example.yml
+*.env
+.env*
+*secret*
+*.key
+*.pem
+
+# 빌드 산출물
+build/
+out/
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db

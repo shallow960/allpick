@@ -1,0 +1,42 @@
+# 설정 예시 — 실제 키는 모두 제거했습니다. (placeholder)
+# 운영 환경에서는 환경변수로 주입합니다.
+
+jwt:
+  secret: ${JWT_SECRET}              # HS256 서명 키
+  issuer: allpick
+  access-token-exp-seconds: 3600
+
+# ── 소셜 로그인 ──
+apple:
+  team-id: ${APPLE_TEAM_ID}
+  client-id: ${APPLE_CLIENT_ID}      # Service ID (Android/Web 로그인 시 token aud)
+  ios-bundle-id: ${APPLE_IOS_BUNDLE_ID}
+  key-id: ${APPLE_KEY_ID}
+  private-key: ${APPLE_PRIVATE_KEY}  # .p8 키 내용
+
+google:
+  client-id: ${GOOGLE_CLIENT_ID}
+
+kakao:
+  user-info-uri: https://kapi.kakao.com/v2/user/me
+
+naver:
+  client-id: ${NAVER_CLIENT_ID}
+  client-secret: ${NAVER_CLIENT_SECRET}
+  redirect-uri: ${NAVER_REDIRECT_URI}
+
+# ── PASS 본인인증 (PortOne V1 경유 / 다날) ──
+portone:
+  base-url: https://api.iamport.kr
+  rest-api-key: ${PORTONE_REST_API_KEY}
+  rest-api-secret: ${PORTONE_REST_API_SECRET}
+  pass:
+    age-limit: 14
+    bypass: false            # 로컬 QA 전용 — 운영에서는 항상 false
+
+# ── 기프티콘 외부 API (제휴사) ──
+giftishow:
+  base-url: ${GIFTISHOW_BASE_URL}
+  auth-code: ${GIFTISHOW_AUTH_CODE}
+  auth-token: ${GIFTISHOW_AUTH_TOKEN}
+  user-id: ${GIFTISHOW_USER_ID}
