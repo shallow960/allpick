@@ -1,3 +1,6 @@
+Google - https://play.google.com/store/apps/details?id=com.allpick.app&pcampaignid=web_share
+
+
 # AllPick - 인증 / 권한 / 결제 모듈
 
 리워드 기반 커머스 앱 **AllPick**(3인 팀 프로젝트, Spring Boot + React Native)에서
