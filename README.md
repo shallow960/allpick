@@ -1,5 +1,6 @@
-Google - https://play.google.com/store/apps/details?id=com.allpick.app&pcampaignid=web_share
-
+###다운로드 링크
+PlayStore - https://play.google.com/store/apps/details?id=com.allpick.app&pcampaignid=web_share
+AppStore - https://apps.apple.com/kr/app/%EC%98%AC%ED%94%BD-allpick/id6759899991
 
 # AllPick - 인증 / 권한 / 결제 모듈
 
